@@ -1,0 +1,145 @@
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: rgb(50, 50, 80);
+    color:white;
+}
+
+footer{
+    background-color: rgb(50, 50, 80);
+    color:white;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.head1{
+    color: rgb(188, 176, 215);
+    display: inline;
+    position: absolute;
+    top:0%;
+    
+}
+
+nav ul {display: flex; 
+        justify-content: center;
+         list-style: none; 
+         padding: 0%; 
+         gap: 40px;
+}
+
+.main {
+    background-color: rgb(133, 131, 193);
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top:25px;
+}
+.main img{
+    max-width: 500px;
+    height: 250px;
+    float: right;
+    margin-left: 20%;
+    border-radius: 10px;
+}
+
+.main p{
+    font-size: xx-large;
+    font-weight: 900;
+    text-align:center;
+}
+
+.head2{
+    text-align: center;
+    color: darkblue;
+
+}
+
+.center{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 0px;
+}
+
+.fcolom h2{
+   color: wheat;
+}
+
+.Scolom h2{
+    color: wheat;
+}
+
+.Bcolom h2{
+    color: wheat;
+}
+
+.head3{
+    text-align: center;
+    color: rgb(68, 11, 202)
+}
+
+.end{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: 100px;
+    
+}
+
+ .end img{
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+   
+} 
+
+.main p{
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-weight: 90;
+}
+
+.maincontent{
+    padding: 10px 0;
+    width: 100%;
+}
+
+.card1,.card2,.card3{
+    background-color:#1067aa;
+    margin: 20px;
+    border-radius: 20px;
+    width: 400px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px black;
+}
+
+.fcolom li{
+  color: rgb(201, 216, 223);
+}
+
+.Scolom li{
+    color: rgb(201, 216, 223);
+}
+  
+.Bcolom li{
+    color: rgb(201, 216, 223);
+}
+    
+
+
+
+
